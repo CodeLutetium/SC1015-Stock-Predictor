@@ -7,7 +7,7 @@ This is a Mini-Project for SC1015 (Introduction to Data Science and Artificial I
 There are 3 main sections to this projects.
 1. <a href='https://github.com/CodeLutetium/SC1015-Stock-Predictor/tree/main/LSTM%20models'>LSTM Analysis of AAPL Stock Price</a>
 2. <a href='https://github.com/CodeLutetium/SC1015-Stock-Predictor/tree/main/Technical%20Indicator%20Models'>Technical Analysis of AAPL Stock</a>
-3. <a href='https://github.com/CodeLutetium/SC1015-Stock-Predictor/tree/main/Sentimental%20Analysis'>Sentiment Analysis of Tweets</a> ()
+3. <a href='https://github.com/CodeLutetium/SC1015-Stock-Predictor/tree/main/Sentimental%20Analysis'>Sentiment Analysis of Tweets</a>
 
 ## Contributors
 
@@ -17,15 +17,27 @@ There are 3 main sections to this projects.
 
 ## Problem Definition
 
-- Are we able to predict whether to buy or sell a stock based on its forecasted price, technical indicators and tweets on the market conditions?
+- Are we able to predict whether the price of a stock will rise or fall based on its forecasted price, technical indicators and tweets on the market conditions?
 - Which of these 3 would be the best to predict it?
 
 ## Models Used
 
 1. LSTM Analysis
+    - Long Short-Term Memory Networks
 2. Technical Analysis
-    - 
+    - To Classify Rise (Buy) or Fall (Sell)
+        - Random Forest Classifier
+        - Decision Tree Classifier
+        - Stochastic Gradient Descent Classifier
+        - Logistic Regression
 3. Sentiment Analysis
+    - To Obtain Sentiment
+        - Valence Aware Dictionary and Sentiment Reasoner
+    - To Classify Rise or Fall
+        - Linear Discriminant Analysis
+        - Random Forest Classifier
+        - *Logistic Regression*
+
 
 ## Conclusion
 
