@@ -31,6 +31,7 @@ google-pasta==0.2.0
 grpcio==1.51.1
 h11==0.14.0
 h5py==3.8.0
+html5lib==1.1
 httpcore==0.16.3
 httpx==0.23.3
 idna==3.4
@@ -114,6 +115,7 @@ typing_extensions==4.5.0
 urllib3==1.26.14
 w3lib==2.1.1
 wcwidth==0.2.6
+webencodings==0.5.1
 websocket-client==1.5.1
 websockets==10.4
 Werkzeug==2.2.3
