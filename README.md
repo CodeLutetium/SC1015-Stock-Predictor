@@ -39,11 +39,11 @@ There are 3 main sections to this projects.
 
 1. LSTM Analysis
 2. Technical Analysis
-    - <a href='https://medium.com/codex/simple-moving-average-and-exponentially-weighted-moving-average-with-pandas-57d4a457d363#:~:text=SMA%20can%20be%20implemented%20by,average%20over%20a%20fixed%20window.&text=Where%20the%20window%20will%20be,used%20for%20calculating%20the%20statistic.'></a>
-    - <a href='https://www.learnpythonwithrune.org/pandas-calculate-the-moving-average-convergence-divergence-macd-for-a-stock/'></a>
-    - <a href='https://www.roelpeters.be/many-ways-to-calculate-the-rsi-in-python-pandas/'></a>
-    - <a href='https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html'></a>
-    - <a href='https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html'></a>
-    - <a href='https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.SGDClassifier.html'></a>
-    - <a href='https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html'></a>
+    - <a href='https://medium.com/codex/simple-moving-average-and-exponentially-weighted-moving-average-with-pandas-57d4a457d363#:~:text=SMA%20can%20be%20implemented%20by,average%20over%20a%20fixed%20window.&text=Where%20the%20window%20will%20be,used%20for%20calculating%20the%20statistic.'>SMA and EMA Calculation</a>
+    - <a href='https://www.learnpythonwithrune.org/pandas-calculate-the-moving-average-convergence-divergence-macd-for-a-stock/'>MACD Calculation</a>
+    - <a href='https://www.roelpeters.be/many-ways-to-calculate-the-rsi-in-python-pandas/'>RSI Calculation</a>
+    - <a href='https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html'>RandomForestClassifier Documentation</a>
+    - <a href='https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html'>DecisionTreeClassifier Documentation</a>
+    - <a href='https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.SGDClassifier.html'>SGDClassifier Documentation</a>
+    - <a href='https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html'>LogisticRegression Documentation</a>
 3. Sentiment Analysis
