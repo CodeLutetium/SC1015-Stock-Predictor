@@ -55,12 +55,14 @@ There are 3 main sections to this projects.
 
 1. LSTM Analysis
 2. Technical Analysis
-    - Data extraction from online APIs.
+    - Data extraction from online stock APIs.
     - Data cleaning techniques using python's pandas library.
-    - Calculation of SMA, EMA, MACD and RSI values from the closing price of stocks.
-    - A model that could perform very well in theory, like our baseline RandomForestClassifier model may not necessarily be the best model, hence we must experiment and explore different models to find the best one for our use.
+    - Data visualisation using the plotly library, which generates interactive and responsive charts.
+    - Calculation of various technical indicators like SMA, EMA, MACD and RSI from the closing price of stocks.
+    - A model that could perform very well in theory, like our baseline RandomForestClassifier model, may not necessarily be the best model, hence we must experiment and explore different models to find the best model for our use.
     - Training, Tuning and Testing the RandomForestClassifier, DecisionTreeClassifier, SGDClassifier and LogisticRegression classification models using the scikit-learn library.
     - Hyperparameter tuning does not always improve a model, and the default untuned model could perform better than the same tuned model.
+    - Different models have different decision making processes, hence will utilise different features of the dataset to make its decision.
 3. Sentiment Analysis
 
 ## References
