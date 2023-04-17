@@ -11,7 +11,7 @@ There are 3 main sections to this projects.
 
 ## Contributors
 
-- @CodeLuteTium (Ming Yang) - LSTM Analysis
+- @CodeLuteTium (Mingyang) - LSTM Analysis
 - @jaredpek (Jared Pek) - Technical Analysis
 - @JustinWong645 (Justin Wong) - Sentiment Analysis
 
@@ -59,3 +59,6 @@ There are 3 main sections to this projects.
     - <a href='https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.SGDClassifier.html'>SGDClassifier Documentation</a>
     - <a href='https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html'>LogisticRegression Documentation</a>
 3. Sentiment Analysis
+    - <a href='https://scikit-learn.org/stable/modules/generated/sklearn.discriminant_analysis.LinearDiscriminantAnalysis.html'>LinearDiscriminantAnalysis Documentation</a>
+    - <a href='https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html'>LogisticRegression Documentation</a>
+    - <a href='https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html'>RandomForestClassifier Documentation</a>
