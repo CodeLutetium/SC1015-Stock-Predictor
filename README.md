@@ -2,7 +2,7 @@
 
 ## About
 
-This is a Mini-Project for SC1015 (Introduction to Data Science and Artificial Intelligence) which uses 2 datasets, the Yahoo Finance AAPL Stock Price data, and Twitter Tweets containing 'AAPL' or general stock market ticker symbols from 2015 to 2019. 
+This is a Mini-Project for SC1015 (Introduction to Data Science and Artificial Intelligence) which uses 2 datasets, the Yahoo Finance AAPL Stock Price data, and Twitter Tweets containing 'AAPL' or general stock market ticker symbols from 2015 to 2019. Please also use JupyterNotebook or VisualStudioCode to view the notebooks as we are using plotly to visualise our data, and plotly charts are unable to render via github's online notebook view.
 
 There are 3 main sections to this projects.
 1. <a href='https://github.com/CodeLutetium/SC1015-Stock-Predictor/tree/main/LSTM%20models'>LSTM Analysis of AAPL Stock Price</a>
