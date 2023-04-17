@@ -11,7 +11,7 @@ There are 3 main sections to this projects.
 
 ## Contributors
 
-- @CodeLuteTium (Ming Yang) - LSTM Analysis
+- @CodeLuteTium (Mingyang) - LSTM Analysis
 - @jaredpek (Jared Pek) - Technical Analysis
 - @JustinWong645 (Justin Wong) - Sentiment Analysis
 
