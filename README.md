@@ -29,23 +29,39 @@ There are 3 main sections to this projects.
         - Random Forest Classifier
         - Decision Tree Classifier
         - Stochastic Gradient Descent Classifier
-        - Logistic Regression
+        - **Logistic Regression**
 3. Sentiment Analysis
     - To Obtain Sentiment
         - Valence Aware Dictionary and Sentiment Reasoner
     - To Classify Rise or Fall
         - Linear Discriminant Analysis
-        - Random Forest Classifier
-        - *Logistic Regression*
+        - **Random Forest Classifier**
+        - Logistic Regression
 
 
 ## Conclusion
 
-- 
+1. LSTM Analysis
+2. Technical Analysis
+    - LogisticRegression was the best out of the 4 models to classify buy and sell signals based on provided technical indicators.
+    - LogisticRegression had a very high prediction accuracy of 0.956, which demonstrates its effective prediction ability.
+    - Tree-based models have been demonstrated to be more prone to overfitting.
+3. Sentiment Analysis
+4. Overall
+    - The 3 methods to predict stock price movement are effective in helping us make buy or sell decisions for AAPL stock. 
+    - However, individual methods are far from perfect in accurately predicting what happens in the stock market. Hence, it is important to combine and utilise all 3 methods in order to truly make an informed decision.
 
 ## What did we learn from this project?
 
-- 
+1. LSTM Analysis
+2. Technical Analysis
+    - Data extraction from online APIs.
+    - Data cleaning techniques using python's pandas library.
+    - Calculation of SMA, EMA, MACD and RSI values from the closing price of stocks.
+    - A model that could perform very well in theory, like our baseline RandomForestClassifier model may not necessarily be the best model, hence we must experiment and explore different models to find the best one for our use.
+    - Training, Tuning and Testing the RandomForestClassifier, DecisionTreeClassifier, SGDClassifier and LogisticRegression classification models using the scikit-learn library.
+    - Hyperparameter tuning does not always improve a model, and the default untuned model could perform better than the same tuned model.
+3. Sentiment Analysis
 
 ## References
 
