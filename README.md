@@ -50,6 +50,7 @@ This notebook is best viewed using JupyterNotebook or VisualStudioCode our plotl
     - LogisticRegression had a very high prediction accuracy of 0.956, which demonstrates its effective prediction ability.
     - Tree-based models have been demonstrated to be more prone to overfitting.
 3. Sentiment Analysis
+    - RandomForestClassifier is the most reliable model with 56% accuracy without any extreme bias.
 4. Overall
     - The 3 methods to predict stock price movement are effective in helping us make buy or sell decisions for AAPL stock. 
     - However, individual methods are far from perfect in accurately predicting what happens in the stock market. Hence, it is important to combine and utilise all 3 methods in order to truly make an informed decision.
