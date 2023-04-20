@@ -68,6 +68,12 @@ This notebook is best viewed using JupyterNotebook or VisualStudioCode our plotl
     - Hyperparameter tuning does not always improve a model, and the default untuned model could perform better than the same tuned model.
     - Different models have different decision making processes, hence will utilise different features of the dataset to make its decision.
 3. Sentiment Analysis
+    - Data extraction from a large dataset.
+    - Data cleaning techniques using python's pandas library.
+    - Sentiment Analysis using VADER.
+    - Selection of which sentiment variable is best to use.
+    - A highly speculative crowd online proved it hard to use people's sentiments to come up with highly accurate prediction.
+    - Sentiment analysis is best used with other indicators to help investors come up with an informed decision.
 
 ## References
 
