@@ -10,6 +10,10 @@ __pycache__/
 # C extensions
 *.so
 
+# Twitter tweets csv
+archive/
+Tweet.csv
+
 # Distribution / packaging
 .Python
 build/
