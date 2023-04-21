@@ -50,6 +50,7 @@ This notebook is best viewed using JupyterNotebook or VisualStudioCode our plotl
     - LogisticRegression had a very high prediction accuracy of 0.956, which demonstrates its effective prediction ability.
     - Tree-based models have been demonstrated to be more prone to overfitting.
 3. Sentiment Analysis
+    - RandomForestClassifier is the most reliable model with 56% accuracy without any extreme bias.
 4. Overall
     - The 3 methods to predict stock price movement are effective in helping us make buy or sell decisions for AAPL stock. 
     - However, individual methods are far from perfect in accurately predicting what happens in the stock market. Hence, it is important to combine and utilise all 3 methods in order to truly make an informed decision.
@@ -67,6 +68,12 @@ This notebook is best viewed using JupyterNotebook or VisualStudioCode our plotl
     - Hyperparameter tuning does not always improve a model, and the default untuned model could perform better than the same tuned model.
     - Different models have different decision making processes, hence will utilise different features of the dataset to make its decision.
 3. Sentiment Analysis
+    - Data extraction from a large dataset.
+    - Data cleaning techniques using python's pandas library.
+    - Sentiment Analysis using VADER.
+    - Selection of which sentiment variable is best to use.
+    - A highly speculative crowd online proved it hard to use people's sentiments to come up with highly accurate prediction.
+    - Sentiment analysis is best used with other indicators to help investors come up with an informed decision.
 
 ## References
 
