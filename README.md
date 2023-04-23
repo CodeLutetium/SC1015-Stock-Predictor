@@ -5,7 +5,7 @@ This is a [Stock Prediction Mini-Project](https://github.com/CodeLutetium/SC1015
 
 There are 3 main sections to our project:
 1. [Sentiment Analysis of Tweets](https://github.com/CodeLutetium/SC1015-Stock-Predictor/blob/main/Sentiment%20Analysis/sentiment_analysis%20.ipynb)
-2. [Technical Analysis of AAPL Stock](https://github.com/CodeLutetium/SC1015-Stock-Predictor/blob/main/Technical%20Analysis/tech_indicators.ipynb)
+2. [Technical Analysis of AAPL Stock](https://github.com/CodeLutetium/SC1015-Stock-Predictor/blob/main/Technical%20Analysis/technical_analysis.ipynb)
 3. [LSTM Analysis of AAPL Stock Price](https://github.com/CodeLutetium/SC1015-Stock-Predictor/blob/main/LSTM%20Analysis/lstm_analysis.ipynb)
 
 Disclaimer:
@@ -23,7 +23,7 @@ Disclaimer:
 ## Models Used
 1. Sentiment Analysis
     - To Obtain Sentiment
-        - Valence Aware Dictionary and Sentiment Reasoner
+        - **Valence Aware Dictionary and Sentiment Reasoner**
     - To Classify Rise or Fall
         - Linear Discriminant Analysis
         - **Random Forest Classifier**
@@ -35,7 +35,7 @@ Disclaimer:
         - Stochastic Gradient Descent Classifier
         - **Logistic Regression**
 3. LSTM Analysis
-    - Long Short-Term Memory Networks
+    - **Long Short-Term Memory Networks**
 
 ## Conclusion
 1. Sentiment Analysis
@@ -45,7 +45,7 @@ Disclaimer:
     - LogisticRegression had a very high prediction accuracy of 0.956, which demonstrates its effective prediction ability.
     - Tree-based models have been demonstrated to be more prone to overfitting.
 3. LSTM Analysis
-    - The 100 days LSTM training window had the lowest mean squared error in predicting future stock price.
+    - The 100 days LSTM training window had the lowest mean squared error and the greatest accuracy in predicting future stock price.
 4. Overall
     - The 3 methods to predict stock price movement are effective in helping us make buy or sell decisions for AAPL stock. 
     - However, individual methods are far from perfect in accurately predicting what happens in the stock market. Hence, it is important to combine and utilise all 3 methods in order to make an informed decision.
@@ -68,6 +68,9 @@ Disclaimer:
     - Hyperparameter tuning does not always improve a model, and the default untuned model could perform better than the same tuned model.
     - Different models have different decision making processes, hence will utilise different features of the dataset to make its decision.
 3. LSTM Analysis
+    - Data extraction from online stock APIs.
+    - Data cleaning techniques using python's pandas library.
+    - Data visualisation using the plotly library, which generates interactive and responsive charts.
     - The greater the training window, the longer the training time for the model, and the lower the uncertainty and the more accurate the model is in predicting future price.
     - With a greater window, there is higher chance of overfitting, so we must carefully select our N value to strike a balance between prediction accuracy and fitting of our model on the dataset.
 
@@ -84,5 +87,8 @@ Disclaimer:
     - [DecisionTreeClassifier Documentation](https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html)
     - [SGDClassifier Documentation](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.SGDClassifier.html)
     - [LogisticRegression Documentation](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html)
+    - [Plotly Candlestick Charts](https://plotly.com/python/candlestick-charts/)
 3. LSTM Analysis
     - [LSTM Documentation](https://www.tensorflow.org/api_docs/python/tf/keras/layers/LSTM)
+    - [LSTM Introduction](https://intellipaat.com/blog/what-is-lstm/#:~:text=LSTM%20has%20feedback%20connections%2C%20i.e.,a%20large%20variety%20of%20problems.)
+    - [Plotly Candlestick Charts](https://plotly.com/python/candlestick-charts/)
