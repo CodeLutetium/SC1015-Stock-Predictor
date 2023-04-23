@@ -1,12 +1,12 @@
 # SC1015 Stock Prediction
 
 ## About
-This is a [Stock Prediction Mini-Project](https://github.com/CodeLutetium/SC1015-Stock-Predictor/blob/main/Stock%20Prediction.ipynb) for SC1015 (Introduction to Data Science and Artificial Intelligence) which uses 2 datasets, the **Yahoo Finance AAPL Stock Price** data, and **Twitter Tweets** containing 'AAPL' or general stock market ticker symbols from **2015 to 2019**.
+This is a [Stock Prediction Mini-Project](https://github.com/CodeLutetium/SC1015-Stock-Predictor/blob/main/stock_prediction.ipynb) for SC1015 (Introduction to Data Science and Artificial Intelligence) which uses 2 datasets, the **Yahoo Finance AAPL Stock Price** data, and **Twitter Tweets** containing 'AAPL' or general stock market ticker symbols from **2015 to 2019**.
 
 There are 3 main sections to our project:
-1. [Sentiment Analysis of Tweets](https://github.com/CodeLutetium/SC1015-Stock-Predictor/tree/main/Sentiment%20Analysis)
-2. [Technical Analysis of AAPL Stock](https://github.com/CodeLutetium/SC1015-Stock-Predictor/tree/main/Technical%20Analysis)
-3. [LSTM Analysis of AAPL Stock Price](https://github.com/CodeLutetium/SC1015-Stock-Predictor/tree/main/LSTM%20Analysis)
+1. [Sentiment Analysis of Tweets](https://github.com/CodeLutetium/SC1015-Stock-Predictor/blob/main/Sentiment%20Analysis/sentiment_analysis%20.ipynb)
+2. [Technical Analysis of AAPL Stock](https://github.com/CodeLutetium/SC1015-Stock-Predictor/blob/main/Technical%20Analysis/tech_indicators.ipynb)
+3. [LSTM Analysis of AAPL Stock Price](https://github.com/CodeLutetium/SC1015-Stock-Predictor/blob/main/LSTM%20Analysis/lstm_analysis.ipynb)
 
 Disclaimer:
 **The notebooks are best viewed using JupyterNotebook or VisualStudioCode as our plotly charts are unable to render via github's online notebook view.**
