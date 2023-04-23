@@ -12,9 +12,9 @@ Disclaimer:
 **The notebooks are best viewed using JupyterNotebook or VisualStudioCode as our plotly charts are unable to render via github's online notebook view.**
 
 ## Contributors
-- @JustinWong645 (Justin Wong) - Sentiment Analysis
-- @jaredpek (Jared Pek) - Technical Analysis
-- @CodeLuteTium (Mingyang) - LSTM Analysis
+- [@JustinWong645](https://github.com/JustinWong645) (Justin Wong) - Sentiment Analysis
+- [@jaredpek](https://github.com/jaredpek) (Jared Pek) - Technical Analysis
+- [@CodeLuteTium](https://github.com/CodeLutetium) (Mingyang) - LSTM Analysis
 
 ## Problem Definition
 - Are we able to predict whether the price of a stock will rise or fall based on its forecasted price, technical indicators and tweets on the market conditions?
