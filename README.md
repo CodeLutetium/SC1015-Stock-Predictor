@@ -45,8 +45,7 @@ Disclaimer:
     - LogisticRegression had a very high prediction accuracy of 0.956, which demonstrates its effective prediction ability.
     - Tree-based models have been demonstrated to be more prone to overfitting.
 3. LSTM Analysis
-    - Increasing the number of days in each training window improved the prediction accuracy of future stock price.
-    - However, this came at a cost of longer training time and increased risk of overfitting.
+    - The 100 days LSTM training window had the lowest mean squared error in predicting future stock price.
 4. Overall
     - The 3 methods to predict stock price movement are effective in helping us make buy or sell decisions for AAPL stock. 
     - However, individual methods are far from perfect in accurately predicting what happens in the stock market. Hence, it is important to combine and utilise all 3 methods in order to make an informed decision.
@@ -69,6 +68,8 @@ Disclaimer:
     - Hyperparameter tuning does not always improve a model, and the default untuned model could perform better than the same tuned model.
     - Different models have different decision making processes, hence will utilise different features of the dataset to make its decision.
 3. LSTM Analysis
+    - The greater the training window, the longer the training time for the model, and the lower the uncertainty and the more accurate the model is in predicting future price.
+    - With a greater window, there is higher chance of overfitting, so we must carefully select our N value to strike a balance between prediction accuracy and fitting of our model on the dataset.
 
 ## References
 1. Sentiment Analysis
